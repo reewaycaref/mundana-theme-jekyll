@@ -34,3 +34,5 @@ fields:
   config:
     required: false
   label: Canonical
+pages:
+- _posts/asiyan-museum.md
