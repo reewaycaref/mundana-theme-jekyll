@@ -34,5 +34,3 @@ fields:
   config:
     required: false
   label: Canonical
-pages:
-- _posts/2020-04-22-asiyan-museum.md
