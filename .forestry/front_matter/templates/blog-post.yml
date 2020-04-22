@@ -8,15 +8,20 @@ fields:
 - type: text
   name: title
   label: title
-- type: text
-  name: author
-  label: author
 - type: list
   name: categories
   label: categories
 - type: file
   name: image
   label: image
-- type: list
-  name: tags
-  label: tags
+- name: description
+  type: text
+  config:
+    required: false
+  label: Meta Description
+  hidden: false
+- name: canonical_url
+  type: text
+  config:
+    required: false
+  label: Canonical
